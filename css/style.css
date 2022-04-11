@@ -338,24 +338,55 @@ text-decoration:none;
 
 /*-----------------------------SOBRE NOSOTROS --------------------------- */
 
-.nosotros-img {
-    padding-top: 5%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.nosotros-img1 {
-    border-radius: 2em;
-}
-
-.titulo-nosotros {
+.nosotros-text {
     text-align: center;
-    font-size: 3em;
-    padding-bottom: 2em;
-    border-radius: 2%;
+    font-family: Fira-texto;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    background-color: #b7b7c0;
+    background: linear-gradient(#d7d7d7, #00000074);
+    padding-top: 2rem;
+}
+.nosotros.text h2 {
+    text-shadow: 0px 4px 14px rgba(0,0,0,0.6);
+    
 }
 
-.nosotros-img-2 {
-    padding-left: 10em;
-    padding-bottom: 2em;
+.nosotros-bar {
+    width: 4em;
+    margin: auto;
+    background-color: #1c1b1b;
 }
+
+.seccion-nosotros {
+    padding-top: 3rem;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.texto-nosotros {
+    padding-top: 1rem;
+    font-family: Fira-texto;
+    font-size: 1.7em;
+}
+
+.nosotros-img {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.nosotros-img-bar {
+    width: 70px;
+    margin: auto;
+}
+
+.nosotros-img figure img {
+border-radius: .5rem;
+}
+
+/* Fin de Sobre nosotros*/
