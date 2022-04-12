@@ -206,7 +206,19 @@ text-decoration:none;
     padding-bottom: 5rem;
 }
 
+/*          SECCION DONDE ESTAMOS              */
+.texto-dondeestamos {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(#faf9f9, #e4e3e3);
+    color: rgb(12, 11, 11);
+}
 
+.barra-dondeestamos {
+    width: 5rem;
+    margin: auto;
+    background-color: rgb(7, 7, 7)
+}
 
 
 
