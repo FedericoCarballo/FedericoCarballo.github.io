@@ -86,21 +86,10 @@ body {
 }
 /* FIN DE LAS FUENTES DE LOS BOTONES MENU*/
 
-/* Bordes de imagenes*/
-.bordes-img {
-    border-radius: 20%;
-}
-/* Bordes de imagenes*/
-
-/*             */
-ul li {
-    list-style: none;
-}
-/*              */
 
 /* FUENTES DE LINKS*/
 a:link {
-    color: rgb(55, 54, 54);
+    color: rgb(220, 220, 220);
 }
 
 a:visited {
@@ -108,7 +97,7 @@ a:visited {
 }
 
 a:active {
-    color: black;
+    color: rgb(96, 93, 93);
 }
 
 a {
