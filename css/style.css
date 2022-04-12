@@ -20,8 +20,13 @@
 }
 /*  MEDIDAS DEL LOGO  */
 .logo {
-    margin-left: 0px;
-    margin-top: 10px;
+    margin-left: 0;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 18rem;
 }
 
 /* FIN DE MEDIDAS DEL LOGO*/
