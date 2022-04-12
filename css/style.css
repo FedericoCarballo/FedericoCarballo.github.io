@@ -457,18 +457,17 @@ text-decoration:none;
     grid-row: span 2;
 }
 
-.text-galery {
-    text-align: center;
-    font-size: 2rem;
-    font-family: Fira-texto;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
-    background-color: #eef0f3;
+.texto-galeria {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(#faf9f9, #e4e3e3);
+    color: rgb(12, 11, 11);
 }
-.galery-bar {
-    width: 70px;
+
+.barra-galeria {
+    width: 1rem;
     margin: auto;
-    background: rgb(112, 109, 109);
+    background-color: rgb(7, 7, 7)
 }
 
 /*-----------------------------SOBRE NOSOTROS --------------------------- */
