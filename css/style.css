@@ -86,7 +86,6 @@ body {
 }
 /* FIN DE LAS FUENTES DE LOS BOTONES MENU*/
 
-
 /* FUENTES DE LINKS*/
 a:link {
     color: rgb(220, 220, 220);
@@ -105,6 +104,13 @@ a {
 
 }
 /* FIN DE FUENTES DE LINKS*/
+
+/* Espaciado entre el carrousel y las tres imagenes*/
+.mi-contenedor{
+    margin-top: -1rem;
+    margin-bottom: 7rem;
+}
+
 
 /* COMIENZO DEL FOOTER*/
 .contenedor {
