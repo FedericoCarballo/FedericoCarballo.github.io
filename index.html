@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Taller Inyección Oeste</title>
-</head>
-<body class="home-galery">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inyeccion Oeste</title>
+        <!--------------------------------------------------------BOOTSTRAP---------------------------------------------------------------->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--------------------------------------------------------BOOTSTRAP---------------------------------------------------------------->
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
         <header class="zona-navegable">
-            <!--Inicio de zona navegable prueba 2-->
+            <!--Inicio de zona navegable-->
             <div class="logo">
                 <a href="index.html"><img src="multimedia/imagen1.png" alt="Logodeltaller" width="450" height=""></a>
             </div>
@@ -27,183 +32,260 @@
         </nav>
         </div>
     </header>
-
-
     
-        <!--Ejemplo de trabajos-->
-        <div>
-
-        <section class="container">
-            
-        <div class="cajas">
-        
-        <div class="caja_img">
-        <img  class="bordes-img" src="multimedia/autorojo.jpg" alt="autorojo" width="250" height="250">
-
-        <div class="caja">
-        
-        
-            <h4 class="textocajas">• Cambio de aceite y filtro</h4>
-            <h4 class="textocajas">• Rectificado de discos y pastillas nuevas</h4>
-            <h4 class="textocajas">• Limpieza y calibración de cuerpo mariposa</h4>
-        
+    <!--------------------------- SLIDER BOOTSTRAP------------------------------------------------------------------->
+    <section class="mi-contenedor">
+        <div class="fondo-carrusel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="multimedia/galery1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>TALLER INYECCION OESTE</h5>
+                      <p>Tu auto está seguro con nosotros.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/galery2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>¿PROBLEMAS CON TU VEHICULO?</h5>
+                      <p>No dudes en contactarnos. Horarios de atencion de 8:00 a.m - 19:30 p.m. ¡Tu consulta no molesta!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/galery3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>TU TALLER MECANICO DE CONFIANZA</h5>
+                      <p>Te informamos de cualquier cambio hecho a tu vehiculo.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
         </div>
-        </div>
-
-        <div class="caja_img">
-
-            <img class="bordes-img" src="multimedia/autoblanco.jpg" alt="autoblanco" width="250" height="250">
-
-        <div class="caja">
-
-            <h4 class="textocajas1">• Service completo </h4>
-            <h4 class="textocajas1">• Limpieza de cuerpo mariposa</h4>
-            <h4 class="textocajas1">• limpieza de las electroválvulas x2 con sus respectivos ajustes.</h4>
-
-        </div>
-        </div>
-
-        <div class="caja_img">
-
-            <img class="bordes-img" src="multimedia/autorojo2.jpg" alt="autorojo2" width="250" height="250">
-
-        <div class="caja">
-
-            <h4 class="textocajas2"> • Limpieza de cuerpo mariposa</h4>
-            <h4 class="textocajas2">• Sonda Lambda nueva</h4>
-
-        </div>
-
-        </div>
-
-        </div>
-
-        
-
-        </section>
-
-        <!--Fin de ejemplos de trabajo-->
-
-        <!-- Inicio de carousel -->
-        <div id="slider">
-        <figure>
-        <img src="multimedia/carousel1.jpg" alt="carousel1" width="250" height="1000">
-        <img src="multimedia/carousel2.jpg" alt="carousel2" width="250" height="1000">
-        <img src="multimedia/carousel3.jpg" alt="carousel3" width="250" height="1000">
-        <img src="multimedia/carousel4.jpg" alt="carousel4" width="250" height="1000">
-        <img src="multimedia/carousel5.jpg" alt="carousel5" width="250" height="1000">
-        </figure>
-        <!-- Fin del carousel -->
-
-        
-        </div>
-
-        <!--Inicio de muestra de servicios-->
-        <section class="container-2" id="serviciosmuestra">
-
-        <div class="cards">
-
-        <div class="card">
-
-        <p>Diagnostico computarizado</p>
-
-        <div class="card_img">
-
-        <img src="multimedia/diagnosticocomputarizado.png" alt="diagnosticocomputarizado" width="64" height="64">
-
-        </div>
-        </div>
-
-        <div class="card">
-
-        <p>Inyeccion electronica</p>
-
-        <div class="card_img">
-
-        <img src="multimedia/inyeccionelectronica123.png" alt="inyeccionelectronica123" width="64" height="64">
-        </div>
-        </div>
-
-        <div class="card">
-        
-        <p>Distribuciones</p>
-
-        <div class="card_img">
-
-        <img src="multimedia/distribuciones.png" alt="distribuciones123" width="64" height="64">
-        </div>
-        </div>
-
-        <div class="card">
-
-        <p>Mantenimientos Generales</p>
-
-        <div class="card_img">
-
-        <img src="multimedia/mantenimientosgenerales.png" alt="mantenimientosgenerales" width="64" height="64">
-        </div>
-        </div>
-
-        <div class="card">
-        
-        <p>Frenos y embragues</p>
-
-        <div class="card_img">
-
-        <img src="multimedia/frenosyembragues.png" alt="" width="64" height="64">
-
-        </div>
-        </div>
-        </div>
-        <!--Fin de muestra de servicios-->
     </section>
-
-    <!--Mapa-->
-    <iframe id="dondeestamos123" class="mapacentral"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d104950.51351348474!2d-58.5768519!3d-34.7126565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc501fafc79cb%3A0x992d10b40985f2e4!2sTaller%20Inyeccion%20Oeste!5e0!3m2!1ses-419!2sar!4v1646843624825!5m2!1ses-419!2sar" width="1830" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <!--Mapa-->
+    <!--------------------------- SLIDER BOOTSTRAP------------------------------------------------------------------->
     
-    <!--Icono Instagram que nos sigue-->
-        <div>
-            <div><a href="https://www.instagram.com/inyeccion_oeste/?hl=es-la"><img src="multimedia/instagram2.png" alt="" class="fixed" width="3%"></a></div>
+    <!--------------------------- IMAGEN 3 AUTOS BOOTSTRAP ------------------------------------------------------------------->
+    <section id="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                <div class="card">
+                <img src="multimedia/autoblanco.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">
+                    • Service completo
+                    • Limpieza de cuerpo mariposa
+                    • limpieza de las electroválvulas x2 con sus respectivos ajustes.</p>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="multimedia/autoblanco.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">
+                            •Service completo
+                            • Limpieza de cuerpo mariposa
+                            • limpieza de las electroválvulas x2 con sus respectivos ajustes.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card"">
+                        <img src="multimedia/autoblanco.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">
+                            • Service completo
+                            • Limpieza de cuerpo mariposa
+                            • limpieza de las electroválvulas x2 con sus respectivos ajustes.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </div>
-    <!--Icono Instagram que nos sigue-->
-
-
-    <!--Comienzo de footer-->
-    <footer class="pie-pagina">
-    <div class="contenedor">
-    <div class="fila">
-    <div class="col-6">
-        <h6>Horario de atención</h6>
-            <p class="footer-links">Lunes a Viernes de 8:00 A.M a 19:00 P.M. Su vehiculo esta a salvo con nosotros. En caso de que haya un percance nos comunicaremos automaticamente con usted. Será informado de todo lo que se le haga a su vehiculo. Será informado de los repuestos y sus costos antes de cada trabajo. El tiempo de entrega dependerá de la dificultad y el trabajo que conlleve dicho trabajo. </p>
+    </section>
+    
+    <!--------------------------- IMAGEN 3 AUTOS BOOTSTRAP------------------------------------------------------------------->
+    
+    
+    
+    <!--------------------------- MAPA UBICACION ------------------------------------------------------------------->
+    
+    
+    <div class="texto-dondeestamos">
+        <h2 class="d-flex justify-content-center">¿Donde estamos?</h2>
+        <div class="barra-dondeestamos">
+        <hr>
+        </div>
     </div>
-        <div class="col-6">
-            <h6 id="contactanos123">¡Contáctanos! Tu consulta no es molestia.</h6>
-            <ul class="footer-links">
-                <li>
-                <a href="https://www.instagram.com/inyeccion_oeste/?hl=es-la">Instagram</a>
-                </li>
-                <li><a href="https://wa.me/5491127325456">Whatsapp</a></li>
-                <li><a href="mailto:ganimedes2q@gmail.com">Correo Electrónico</a></li>
-                <li><a href="tel:46261052">Telefono Fijo</a></li>
-            </ul>
-            </div>
-
-            <div class="col-6">
-                <h6>¿Donde estamos?</h6>
-                <ul class="footer-links">
-                <iframe class="mapa-ubicacion" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d104950.51351348474!2d-58.5768519!3d-34.7126565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc501fafc79cb%3A0x992d10b40985f2e4!2sTaller%20Inyeccion%20Oeste!5e0!3m2!1ses-419!2sar!4v1646843624825!5m2!1ses-419!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </ul>
-            </div>
-            </div>
-            <hr>
-            </div>
-                </div>
-                </div>
-                </div>
-            </footer>
-    <!--FIN DEL FOOTER-->
+    
+    <div> 
+    <iframe class="mapa-dondeestamos" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.45693896372234!2d-58.57451427545327!3d-34.72519293051138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc501fafc79cb%3A0x992d10b40985f2e4!2sInyeccion%20Oeste!5e0!3m2!1ses-419!2sar!4v1649761700530!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     
     
-</body>
-</html>
+    <!--------------------------- MAPA UBICACION ------------------------------------------------------------------->
+    
+    
+    
+    <!--------------------------- SERVICIOS ------------------------------------------------------------------->
+    
+    <div class="texto-dondeestamos">
+      <h2 class="d-flex justify-content-center">Servicios</h2>
+      <div class="barra-servicios">
+      <hr>
+      </div>
+    </div>
+    
+    
+    <section class="cards" id="seccion-servicios">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 11rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Diagnostico computarizado</h5>
+                          </div>
+                        <img src="multimedia/diagnosticocomputarizado.png" class="card-img-top" id="servicios-imagenes" alt="...">
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 11rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Distribuciones</h5>
+                          </div>
+                        <img src="multimedia/distribuciones.png" class="card-img-top" id="servicios-imagenes" alt="...">
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 11rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Frenos y embragues</h5>
+                          </div>
+                        <img src="multimedia/frenosyembragues.png" class="card-img-top" id="servicios-imagenes" alt="...">
+                      </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    
+    <section class="cards" id="seccion-servicios2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 11rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Mantenimientos Generales</h5>
+                          </div>
+                        <img src="multimedia/mantenimientosgenerales.png" class="card-img-top" id="servicios-imagenes" alt="...">
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 10rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Inyeccion electronica</h5>
+                          </div>
+                        <img src="multimedia/inyeccionelectronica123.png" class="card-img-top" id="servicios-imagenes" alt="...">
+                      </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    
+    <!--------------------------- SERVICIOS ------------------------------------------------------------------->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <!------------------------------Comienzo de footer----------------------------------------------------------------------->
+        <footer class="pie-pagina">
+            <div class="contenedor">
+            <div class="fila">
+            <div class="divisores-footer">
+                <h6>Horario de atención</h6>
+                    <p class="footer-links">Lunes a Viernes de 8:00 A.M a 19:00 P.M. Su vehiculo esta a salvo con nosotros. En caso de que haya un percance nos comunicaremos automaticamente con usted. Será informado de todo lo que se le haga a su vehiculo. Será informado de los repuestos y sus costos antes de cada trabajo. El tiempo de entrega dependerá de la dificultad y el trabajo que conlleve dicho trabajo. </p>
+            </div>
+                <div class="divisores-footer">
+                    <h6 id="contactanos123">¡Contáctanos! Tu consulta no es molestia.</h6>
+                    <ul class="footer-links">
+                        <li>
+                        <a href="https://www.instagram.com/inyeccion_oeste/?hl=es-la">Instagram</a>
+                        </li>
+                        <li><a href="https://wa.me/5491127325456">Whatsapp</a></li>
+                        <li><a href="mailto:ganimedes2q@gmail.com">Correo Electrónico</a></li>
+                        <li><a href="tel:46261052">Telefono Fijo</a></li>
+                    </ul>
+                    </div>
+        
+                    <div class="divisores-footer">
+                        <h6>¿Donde estamos?</h6>
+                        <ul class="footer-links">
+                        <iframe class="mapa-ubicacion" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d104950.51351348474!2d-58.5768519!3d-34.7126565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc501fafc79cb%3A0x992d10b40985f2e4!2sTaller%20Inyeccion%20Oeste!5e0!3m2!1ses-419!2sar!4v1646843624825!5m2!1ses-419!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </ul>
+                    </div>
+                    </div>
+                    <hr>
+                    </div>
+                        </div>
+                        </div>
+                        </div>
+                    </footer>
+            <!------------------------------------------------------------FIN DEL FOOTER---------------------------------------------------------------->
+    
+            <!--------------------------------------------------------BOOTSTRAP---------------------------------------------------------------->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+    </html>
