@@ -220,6 +220,27 @@ text-decoration:none;
     background-color: rgb(7, 7, 7)
 }
 
+/*                    SERVICIOS                          */
+#servicios-imagenes {
+    width: 8rem;
+    padding-left: 2rem;
+}
+
+.barra-servicios {
+    width: 4rem;
+    margin: auto;
+    background-color: rgb(7, 7, 7)
+}
+
+#seccion-servicios {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.row {
+    display: flex;
+    justify-content:space-around;
+}
 
 
 /*                  GALERIA                  */
