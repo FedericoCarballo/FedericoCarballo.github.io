@@ -18,6 +18,11 @@
     font-family: Vidaloka-subtexto;
     src: url('../Vidaloka/Vidaloka-Regular.ttf');
 }
+
+body {
+    background: linear-gradient(#ffffff, #f7f6f6);
+}
+
 /*  MEDIDAS DEL LOGO  */
 .logo {
     margin-left: 0;
@@ -30,19 +35,6 @@
 }
 
 /* FIN DE MEDIDAS DEL LOGO*/
-
-
-/*  FONDO DE LA PAGINA  */
-.home {
-    margin: 0%;
-    padding: 0%;
-    background: linear-gradient(#f2f3f3, #dadada);
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-}
-/* FIN DEL FONDO DE LA PAGINA */
-
 
 /* ZONA DEL MENU  */
 .zona-navegable {
