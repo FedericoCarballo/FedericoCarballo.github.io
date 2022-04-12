@@ -525,3 +525,13 @@ border-radius: .5rem;
 
 /* Fin de Sobre nosotros*/
 
+
+
+/*                  ANIMACIONES                                                 */
+.transicion {
+    transition: all .5s;
+}
+
+.transicion:hover {
+    transform: scale(1.2);
+}
