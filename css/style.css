@@ -194,6 +194,22 @@ text-decoration:none;
 /* FIN DEL FOOTER*/
 
 
+
+
+/*                   IFRAME DONDE ESTAMOS                  */
+.mapa-dondeestamos{
+    width: 115rem;
+    height: 40rem;
+}
+/*                   ESPACIADO ENTRE LAS TRES IMAGENES Y EL IFRAME                   */
+#cards {
+    padding-bottom: 5rem;
+}
+
+
+
+
+
 /*                  GALERIA                  */
 
 .grid-home {
