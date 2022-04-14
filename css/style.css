@@ -550,3 +550,13 @@ border-radius: .5rem;
     margin: auto;
     background-color: rgb(7, 7, 7)
 }
+
+.submenu {
+    text-align: center;
+    background-color: #353434;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.submenu p {
+    color: white;
+}
