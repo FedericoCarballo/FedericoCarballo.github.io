@@ -118,8 +118,8 @@ a {
 footer {
     background-color:#26272b;
     height: auto;
-    width: 100vw;
-    font-family: Fira-texto;
+    width: 100%;
+    font-family: Fira-Text;
     padding-top: 40px;
     color: #FFFFFF;
 }
@@ -171,13 +171,13 @@ footer {
 }
 
 .redes-footer a:hover i {
-    color: rgb(249, 67, 0);
+    color: rgb(166, 74, 20);
 }
 
 .boton-footer {
     background-color:#1e1e21;
-    width: 100vw;
-    padding: 20px 0;
+    width: 100%;
+    padding: 10px 0;
     text-align: center;
 }
 
