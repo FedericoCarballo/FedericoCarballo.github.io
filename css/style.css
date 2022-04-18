@@ -24,68 +24,62 @@ body {
     background: linear-gradient(#ffffff, #f7f6f6);
 }
 
-/*  MEDIDAS DEL LOGO  */
-.logo {
-    margin-left: 0;
-    margin-top: 1rem;
-    flex-wrap: wrap;
-}
-
-.logo img {
-    width: 18rem;
-}
-
-/* FIN DE MEDIDAS DEL LOGO*/
-
-/* ZONA DEL MENU  */
-.zona-navegable {
-    background: linear-gradient(#1c1b1b, #434344);
-    padding: .3rem 0;
-    border: .3em solid rgba(55, 52, 52, 0.953);
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    font-family: Fira-texto2;
-    font-size: large;
+header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 1rem;
-    margin-top: -1rem;
-    position: sticky;
-    color:#737373;
-    line-height:24px;
-    box-shadow: -1px 1px 67px 11px rgba(0,0,0,0.53);
-    -webkit-box-shadow: -1px 1px 67px 11px rgba(0,0,0,0.53);
-    -moz-box-shadow: -1px 1px 67px 11px rgba(0,0,0,0.53);
+    align-items: center;
+    padding: 1.6rem 1rem;
+    background: linear-gradient(#26272b, #494848);
 }
 
-/* FIN DE ZONA DEL MENU*/
+.logo {
+    cursor: pointer;
+    width: 16rem;
+}
 
-/* BOTONES DEL MENU*/
-.subheader {
-    width: 60rem;
-    margin-right: 1rem;
+.nav-links {
     list-style: none;
-    display: inline;
-    text-align: center;
-    text-decoration: none;
 }
-/*FIN DE BOTONES DEL MENU*/
 
-/* FUENTES DE LOS BOTONES MENU*/
-.menu {
-    margin-top: 2.5rem;
-    display: flex;
-    justify-content: space-around;
-    color: black;
-    text-decoration: none;
-    font-family: Mesiri-botones;
-    text-shadow: 6px 1px 7px rgba(0,0,0,0.39);
-    font-size: 130%;
-    
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
 }
-/* FIN DE LAS FUENTES DE LOS BOTONES MENU*/
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    font-family: Fira-Texto;
+    font-size: 1.2em;
+}
+
+.nav-links li a:hover {
+    color: #242424
+}
+
+.boton-menu {
+    padding: 9px 25px;
+    background-color: rgb(149, 149, 149);
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+
+}
+
+.boton-menu:hover {
+    background-color: rgba(57, 60, 61, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
 
 /* FUENTES DE LINKS*/
 a:link {
