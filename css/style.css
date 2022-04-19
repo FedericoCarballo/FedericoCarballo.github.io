@@ -35,7 +35,7 @@ header {
     padding: 1.6rem 1rem;
     background: linear-gradient(#26272b, #494848);
 }
-@media screen and (max-width: 422px) {
+@media screen and (min-width: 422px) {
     header {
     flex-direction: column;
     }
@@ -47,7 +47,7 @@ header {
     width: 16rem;
 }
 
-@media screen and (max-width: 422px) {
+@media screen and (min-width: 422px) {
     .logo {
     width: 23rem;
     height: 5rem;
@@ -155,12 +155,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 1rem 1rem 0;
 
 }
 
 .redes-footer li {
-    margin: 0 10px;
+    margin: 0 1rem;
 
 }
 
@@ -170,7 +170,7 @@ footer {
 }
 
 .redes-footer a i {
-    font-size: 1.1rem;
+    font-size: 1rem;
     transition: color .4 ease;
 }
 
@@ -212,7 +212,7 @@ footer {
     width: 115rem;
     height: 40rem;
 }
-@media screen and (max-width: 422px) {
+@media screen and (min-width: 422px) {
     .mapa-dondeestamos {
     width: 26.4rem;
     height: 30rem;
@@ -583,6 +583,13 @@ border-radius: .5rem;
     color: white;
 }
 
+@media screen and (min-width: 422px) {
+    .mapa-dondeestamos {
+    width: 26.4rem;
+    height: 30rem;
+    }
+}
+
 
 /* From uiverse.io by @e-coders */
 .botoncito {
@@ -620,7 +627,7 @@ border-radius: .5rem;
     outline-offset: 2px;
 }
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
     .botoncito {
     padding: .75rem 1.5rem;
     }
