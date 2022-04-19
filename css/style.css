@@ -25,7 +25,7 @@ body {
 }
 
 
-
+/*            MENU                         */
 
 header {
     display: flex;
@@ -35,10 +35,23 @@ header {
     padding: 1.6rem 1rem;
     background: linear-gradient(#26272b, #494848);
 }
+@media screen and (max-width: 422px) {
+    header {
+    flex-direction: column;
+    }
+}
+
 
 .logo {
     cursor: pointer;
     width: 16rem;
+}
+
+@media screen and (max-width: 422px) {
+    .logo {
+    width: 23rem;
+    height: 5rem;
+    }
 }
 
 .nav-links {
@@ -74,7 +87,7 @@ header {
     background-color: rgba(57, 60, 61, 0.8);
 }
 
-
+/*           FIN DEL MENU                                */
 
 
 
@@ -199,6 +212,13 @@ footer {
     width: 115rem;
     height: 40rem;
 }
+@media screen and (max-width: 422px) {
+    .mapa-dondeestamos {
+    width: 26.4rem;
+    height: 30rem;
+    }
+}
+
 /*                   ESPACIADO ENTRE LAS TRES IMAGENES Y EL IFRAME                   */
 #cards {
     padding-bottom: 5rem;
@@ -238,6 +258,10 @@ footer {
 .row {
     display: flex;
     justify-content:space-around;
+}
+
+.seccion-general {
+    padding-bottom: 5rem;
 }
 
 
@@ -584,20 +608,23 @@ border-radius: .5rem;
     -webkit-user-select: none;
     touch-action: manipulation;
     width: auto;
-   }
-   
-   .botoncito:hover {
-    background-color: #374151;
-   }
-   
-   .botoncito:focus {
+}
+
+    .botoncito:hover {
+    background-color: #374151;   
+}
+
+    .botoncito:focus {
     box-shadow: none;
     outline: 2px solid white;
     outline-offset: 2px;
-   }
-   
-   @media (min-width: 768px) {
+}
+
+    @media (max-width: 768px) {
     .botoncito {
-     padding: .75rem 1.5rem;
+    padding: .75rem 1.5rem;
     }
-   }
+}
+
+
+
