@@ -1,0 +1,64 @@
+.texto-formularios {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(#faf9f9, #e4e3e3);
+    color: rgb(12, 11, 11);
+}
+ 
+.formulario-bar {
+    width: 5rem;
+    margin: auto;
+    background-color: rgb(7, 7, 7)
+}
+ 
+.submenu {
+    text-align: center;
+    background-color: #353434;
+    font-family: 'Fjalla One', sans-serif;
+}
+ 
+.submenu p {
+    color: white;
+}
+ 
+
+.botoncito {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+ 
+    .botoncito:hover {
+    background-color: #374151;  
+}
+ 
+    .botoncito:focus {
+    box-shadow: none;
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+ 
+    @media (max-width: 768px) {
+    .botoncito {
+    padding: .75rem 1.5rem;
+    }
+}

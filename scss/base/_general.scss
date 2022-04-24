@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Fira-texto;
+    src: url('../Fira_Sans_Condensed/FiraSansCondensed-Regular.ttf');
+}
+@font-face {
+    font-family: Fira-texto2;
+    src: url('../Fira_Sans_Condensed/FiraSansCondensed-Light.ttf');
+}
+@font-face {
+    font-family: Mesiri-botones;
+    src: url('../El_Messiri/static/ElMessiri-Medium.ttf');
+}
+@font-face {
+    font-family: Vidaloka-subtexto;
+    src: url('../Vidaloka/Vidaloka-Regular.ttf');
+}
+
+body {
+    background: linear-gradient(#ffffff, #f7f6f6);
+}
+
+a:link {
+    color: rgb(220, 220, 220);
+}
+ 
+a:visited {
+    color: rgb(197, 192, 192);
+}
+ 
+a:active {
+    color: rgb(96, 93, 93);
+}
+ 
+a {
+    text-decoration: none;
+}
+
+/* Espaciado entre el carrousel y las tres imagenes*/
+.mi-contenedor{
+    margin-top: -1rem;
+    margin-bottom: 7rem;
+}
+
+/*                   IFRAME DONDE ESTAMOS                  */
+.mapa-dondeestamos{
+    width: 115rem;
+    height: 40rem;
+}
+
+/*                   ESPACIADO ENTRE LAS TRES IMAGENES Y EL IFRAME                   */
+#cards {
+    padding-bottom: 3rem;
+}
+
+/*                  ANIMACIONES                                                 */
+.transicion {
+    transition: all .5s;
+}
+ 
+.transicion:hover {
+    transform: scale(1.2);
+}
+
