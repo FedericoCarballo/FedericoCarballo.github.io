@@ -511,6 +511,11 @@ footer {
     padding: 0.75rem 1.5rem;
   }
 }
+.servicios-general {
+  background-color: #dadada;
+  padding-bottom: 1px;
+}
+
 .servicios-texto-barra {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
@@ -526,13 +531,13 @@ footer {
 
 .container-servicios {
   box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
-  background: rgba(234, 231, 231, 0.9);
+  background: rgba(234, 231, 231, 0.9019607843);
   text-align: center;
   border-radius: 5px;
   overflow: hidden;
   margin: 5em auto;
-  height: 350px;
-  width: 1000px;
+  height: 21rem;
+  width: 62rem;
 }
 
 .product-details-servicios {
@@ -566,14 +571,14 @@ footer {
 }
 
 .btn-servicios {
-  background: rgb(197, 117, 117);
+  background: #c57575;
   font-family: Fira-texto;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   overflow: hidden;
   border: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .btn-servicios span {
