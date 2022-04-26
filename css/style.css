@@ -196,39 +196,6 @@ footer {
   background-color: rgb(7, 7, 7);
 }
 
-/*                    SERVICIOS                          */
-.imagenes-servicios {
-  height: 440px;
-  transition: all 400ms ease;
-}
-
-.imagenes-servicios img {
-  width: 310px;
-  border-radius: 5px;
-  float: left;
-}
-
-.texto-servicios {
-  text-align: center;
-  font-family: Fira-texto;
-  font-size: 1.3rem;
-}
-
-.barra-servicios {
-  width: 5rem;
-  margin: auto;
-  background-color: rgb(7, 7, 7);
-  margin-bottom: 1rem;
-}
-
-.seccion-servicios {
-  padding-top: 2rem;
-}
-
-.imagenes-servicios:hover {
-  box-shadow: 5px 5px 20px rgba 0, 0, 0, 0.2;
-}
-
 .grid-home {
   background-color: #eef0f3;
   font-family: sans-serif;
@@ -543,6 +510,85 @@ footer {
   .botoncito {
     padding: 0.75rem 1.5rem;
   }
+}
+.servicios-texto-barra {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(#faf9f9, #e4e3e3);
+  color: rgb(12, 11, 11);
+}
+
+.barra-servicios {
+  width: 3rem;
+  margin: auto;
+  background-color: rgb(7, 7, 7);
+}
+
+.container-servicios {
+  box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+  background: rgba(234, 231, 231, 0.9);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5em auto;
+  height: 350px;
+  width: 600px;
+}
+
+.product-details-servicios {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  padding: 30px;
+  height: 100%;
+  float: left;
+  width: 40%;
+}
+
+.container-servicios .product-details-servicios h1 {
+  font-family: "Old Standard TT", serif;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #344055;
+}
+
+.container-servicios .product-details-servicios > p {
+  font-family: Fira-texto;
+  text-align: center;
+  font-size: 1rem;
+  color: #7d7d7d;
+}
+
+.control-servicios {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-servicios {
+  background: rgb(197, 117, 117);
+  font-family: Fira-texto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.btn-servicios span {
+  font-family: Fira-texto;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.product-image-servicios {
+  display: flex;
+}
+
+.container-servicios img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

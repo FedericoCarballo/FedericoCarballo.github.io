@@ -10,37 +10,4 @@
     margin: auto;
     background-color: rgb(7, 7, 7)
 }
- 
-/*                    SERVICIOS                          */
-.imagenes-servicios {
-    height: 440px;
-    transition: all 400ms ease;
-}
- 
-.imagenes-servicios img {
-    width: 310px;
-    border-radius: 5px;
-    float: left;
-}
- 
-.texto-servicios {
-    text-align: center;
-    font-family: Fira-texto;
-    font-size: 1.3rem;
-}
- 
-.barra-servicios {
-    width: 5rem;
-    margin: auto;
-    background-color: rgb(7, 7, 7);
-    margin-bottom: 1rem;
-}
- 
-.seccion-servicios {
-    padding-top: 2rem;
-}
- 
-.imagenes-servicios:hover {
-    box-shadow: 5px 5px 20px rgba (0,0,0,0.2);
- 
-}
+
