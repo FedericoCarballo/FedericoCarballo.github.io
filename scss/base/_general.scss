@@ -19,25 +19,26 @@
     font-family: Vidaloka-subtexto;
     src: url('../Vidaloka/Vidaloka-Regular.ttf');
 }
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 body {
     background: linear-gradient(#ffffff, #f7f6f6);
 }
 
-a:link {
-    color: rgb(220, 220, 220);
-}
- 
 a:visited {
-    color: rgb(197, 192, 192);
+    color: rgb(255, 255, 255);
 }
- 
-a:active {
-    color: rgb(96, 93, 93);
+
+a::after {
+    color: white;
 }
- 
+
+a:hover {
+    color: white;
+}
+
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 /* Espaciado entre el carrousel y las tres imagenes*/
