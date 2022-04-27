@@ -87,12 +87,6 @@ a {
   margin-bottom: 7rem;
 }
 
-/*                   IFRAME DONDE ESTAMOS                  */
-.mapa-dondeestamos {
-  width: 115rem;
-  height: 40rem;
-}
-
 /*                   ESPACIADO ENTRE LAS TRES IMAGENES Y EL IFRAME                   */
 #cards {
   padding-bottom: 3rem;
@@ -105,6 +99,21 @@ a {
 
 .transicion:hover {
   transform: scale(1.2);
+}
+
+.mapa-index {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+}
+
+.mapa-index iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 footer {
@@ -537,7 +546,7 @@ footer {
   overflow: hidden;
   margin: 5em auto;
   height: 21rem;
-  width: 62rem;
+  width: 50%;
 }
 
 .product-details-servicios {
