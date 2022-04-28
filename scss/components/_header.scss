@@ -1,8 +1,5 @@
 header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    @extend %posicionamiento;
     padding: 1.6rem 1rem;
     background: linear-gradient(#26272b, #494848);
 }

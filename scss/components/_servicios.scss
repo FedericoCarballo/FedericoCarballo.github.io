@@ -1,3 +1,5 @@
+@import '../base/mixins';
+
 .servicios-general{
     background-color: #dadada;
     padding-bottom: 1px;
@@ -57,8 +59,7 @@
 
 
 .control-servicios{
-    display: flex;
-    justify-content: center;
+    @include flexbox(flex, center);
 }
 
 
@@ -66,8 +67,7 @@
     background: #c57575;
     font-family: Fira-texto;
     border-radius: 5px;
-    display: flex;
-    justify-content:center;
+    @include flexbox(flex, center);
     overflow: hidden;
     border: none;
     color: #ffffff;
