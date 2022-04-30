@@ -1,6 +1,6 @@
 header {
     @extend %posicionamiento;
-    padding: 1.6rem 1rem;
+    padding: 1.6rem 1rem .5rem;
     background: linear-gradient(#26272b, #494848);
 }
  
@@ -8,6 +8,7 @@ header {
 .logo {
     cursor: pointer;
     width: 15rem;
+    margin-top: -1rem;
 }
  
  

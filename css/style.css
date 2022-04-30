@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 header {
-  padding: 1.6rem 1rem;
+  padding: 1.6rem 1rem 0.5rem;
   background: linear-gradient(#26272b, #494848);
 }
 
 .logo {
   cursor: pointer;
   width: 15rem;
+  margin-top: -1rem;
 }
 
 .nav-links {
@@ -84,6 +85,7 @@ a {
 .mi-contenedor {
   margin-top: -1rem;
   margin-bottom: 7rem;
+  padding-top: 1rem;
 }
 
 .h1-carrusel {
@@ -173,7 +175,7 @@ footer {
 }
 
 .redes-footer a:hover i {
-  color: rgb(166, 74, 20);
+  color: #c57575;
 }
 
 .boton-footer {
@@ -422,6 +424,55 @@ footer {
   letter-spacing: 4px;
 }
 
+.quienes-somos-texto p a {
+  color: #be5e5e;
+}
+
+.quienes-somos-texto p a:hover {
+  color: #8f3535;
+}
+
+.container-sobrenosotros {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box-sobrenosotros {
+  flex: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+
+.box-sobrenosotros > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.box-sobrenosotros > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box-sobrenosotros:hover {
+  flex: 1 1 50%;
+}
+
+.box-sobrenosotros:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
 .texto-formularios {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
@@ -583,6 +634,16 @@ header {
   width: 500px;
   max-width: 100%;
   min-height: 200px;
+}
+
+.quienes-somos-texto {
+  padding-top: auto;
+  margin: 0 auto;
+  width: 90rem;
+  max-width: 100%;
+  min-height: 200px;
+  font-family: fira-texto;
+  font-size: 1.2em;
 }
 
 .tres-autos {
