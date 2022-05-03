@@ -12,6 +12,7 @@
     color: rgb(12, 11, 11);
 }
 
+
 .barra-servicios {
     width: 3rem;
     margin: auto;
@@ -88,4 +89,20 @@
 .container-servicios img {
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    .container-servicios img {
+        display: none;
+    }
+    .product-details-servicios {
+        height: 100%;
+        width: 100%;
+    }
+    .container-servicios{
+        overflow: hidden;
+        margin: 5em auto;
+        height: auto;
+        width: 90%;
+    }
 }

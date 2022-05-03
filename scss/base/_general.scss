@@ -70,13 +70,16 @@ a {
 .mapa-index {
     position: relative;
     padding-bottom: 30%;
-    height: 0;
     overflow: hidden;
 }
 .mapa-index iframe {
     position: absolute;
-    top:0;
-    left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    .mapa-index {
+        padding-bottom: 30rem;
+    }
 }
