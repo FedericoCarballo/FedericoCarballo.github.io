@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap%27");
 header {
   width: 100%;
   height: 10vh;
@@ -45,6 +46,7 @@ nav {
 .menu-navegador li a {
   color: #fff;
   font-size: 16px;
+  text-shadow: -1px 5px 2px rgba(0, 0, 0, 0.21);
 }
 
 .menu-navegador li a.active, .menu-navegador li a:hover {
@@ -185,6 +187,7 @@ a {
   position: relative;
   padding-bottom: 30%;
   overflow: hidden;
+  padding-bottom: 50rem;
 }
 
 .mapa-index iframe {
@@ -220,6 +223,8 @@ footer {
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
+  font-family: "Koulen", cursive;
+  letter-spacing: 2px;
 }
 
 .contenido-footer p {
@@ -275,16 +280,25 @@ footer {
 }
 
 .texto-dondeestamos {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-  background: linear-gradient(#faf9f9, #e4e3e3);
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #E8E5E5;
   color: rgb(12, 11, 11);
 }
 
+.texto-dondeestamos h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: "Koulen", cursive;
+  color: #344055;
+}
+
 .barra-dondeestamos {
-  width: 5rem;
+  width: 3rem;
   margin: auto;
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(253, 35, 35);
 }
 
 .grid-home {
@@ -479,14 +493,21 @@ footer {
 .texto-galeria {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
-  background: linear-gradient(#faf9f9, #e4e3e3);
   color: rgb(12, 11, 11);
 }
 
+.texto-galeria h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  color: #344055;
+  font-family: "Koulen", cursive;
+}
+
 .barra-galeria {
-  width: 1rem;
+  width: 2rem;
   margin: auto;
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(255, 1, 1);
 }
 
 .quienes-somos {
@@ -563,10 +584,18 @@ footer {
   color: rgb(12, 11, 11);
 }
 
+.texto-formularios h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Koulen", cursive;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
 .formulario-bar {
   width: 5rem;
   margin: auto;
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(255, 0, 0);
 }
 
 .submenu {
@@ -620,21 +649,27 @@ footer {
   }
 }
 .servicios-general {
-  background-color: #dadada;
+  background-color: #E8E5E5;
   padding-bottom: 1px;
 }
 
 .servicios-texto-barra {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-  background: linear-gradient(#faf9f9, #e4e3e3);
-  color: rgb(12, 11, 11);
+  padding-top: 3rem;
+}
+
+.servicios-texto-barra h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: #344055;
+  font-family: "Koulen", cursive;
 }
 
 .barra-servicios {
-  width: 3rem;
+  width: 2.5rem;
   margin: auto;
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(253, 35, 35);
 }
 
 .container-servicios {
@@ -643,7 +678,7 @@ footer {
   text-align: center;
   border-radius: 5px;
   overflow: hidden;
-  margin: 5em auto;
+  margin: 3em auto;
   height: 21rem;
   width: 50%;
 }

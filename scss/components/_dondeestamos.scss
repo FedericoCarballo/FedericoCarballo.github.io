@@ -1,13 +1,21 @@
 .texto-dondeestamos {
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    background: linear-gradient(#faf9f9, #e4e3e3);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background-color: #E8E5E5;
     color: rgb(12, 11, 11);
 }
- 
+
+.texto-dondeestamos h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Koulen', cursive;
+    color: #344055;
+}
 .barra-dondeestamos {
-    width: 5rem;
+    width: 3rem;
     margin: auto;
-    background-color: rgb(7, 7, 7)
+    background-color: rgb(253, 35, 35)
 }
 
