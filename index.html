@@ -33,10 +33,16 @@
     <body>
           <!-- Zona Navegable -->
         <header>
-          <img class= logo src="multimedia/imagen1.png" alt="logo inyeccionoeste">
           <nav>
-            <ul class="nav-links">
-              <li><a href="index.html">Inicio</a></li>
+            <div>
+              <img src="multimedia/imagen1.png" class="logomenu" alt="">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="menu-navegador">
+              <li><a href="#">Inicio</a></li>
               <li><a href="#serviciosmuestra">Servicios</a></li>
               <li><a href="galeria.html">Galeria</a></li>
               <li><a href="#dondeestamos123">Ubicacion</a></li>
@@ -46,236 +52,234 @@
           </nav>
         </header>
           <!-- Zona Navegable -->
-  
-    
+
           <!-- SLIDER BOOTSTRAP -->
 
-    <section class="mi-contenedor">
-      <div class="fondo-carrusel">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <img src="multimedia/galery1.jpg" class="d-block w-100" alt="automovil">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h1>
-                            <span class="h1-carrusel">TALLER INYECCION OESTE</span>
-                          </h1>
-                          <p>Tu auto está seguro con nosotros.</p>
+          <section class="mi-contenedor">
+            <div class="fondo-carrusel">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="multimedia/galery1.jpg" class="d-block w-100" alt="automovil">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h1>
+                                  <span class="h1-carrusel">TALLER INYECCION OESTE</span>
+                                </h1>
+                                <p>Tu auto está seguro con nosotros.</p>
+                              </div>
                         </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="multimedia/galery2.jpg" class="d-block w-100" alt="automovil">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1>
-                        <span class="h1-carrusel">¿PROBLEMAS CON TU VEHICULO?</span>
-                      </h1>
-                      <p>No dudes en contactarnos. Horarios de atencion de 8:00 a.m - 19:30 p.m. ¡Tu consulta no molesta!</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="multimedia/galery3.jpg" class="d-block w-100" alt="automovil">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1>
-                        <span class="h1-carrusel">TU TALLER MECANICO DE CONFIANZA</span>
-                      </h1>
-                      <p>Te informamos de cualquier cambio hecho a tu vehiculo.</p>
+                        <div class="carousel-item">
+                          <img src="multimedia/galery2.jpg" class="d-block w-100" alt="automovil">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h1>
+                              <span class="h1-carrusel">¿PROBLEMAS CON TU VEHICULO?</span>
+                            </h1>
+                            <p>No dudes en contactarnos. Horarios de atencion de 8:00 a.m - 19:30 p.m. ¡Tu consulta no molesta!</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="multimedia/galery3.jpg" class="d-block w-100" alt="automovil">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h1>
+                              <span class="h1-carrusel">TU TALLER MECANICO DE CONFIANZA</span>
+                            </h1>
+                            <p>Te informamos de cualquier cambio hecho a tu vehiculo.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+              </div>
+          </section>
+                <!-- SLIDER BOOTSTRAP -->
+      
+                
+              <!-- Cartas 3 Autos -->
+      
+              <section class="contenedor">
+                <div class="card">
+                  <div class="card__thumb">
+                    <img src="multimedia/camionetacarta.png" alt="" class="card__image">
+                    <div class="card__caption">
+                      <span class="card__title"> Cliente Camioneta Ford Eco Sport</span>
+                      <p class="card__snippet">Camioneta EcoSport en el cual ha pedido un Escaneo global y Limpieza de valvula IAC</p>
+                      <a href="formularios.html" class="card__button">Pide tu turno aqui</a>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+              
+                <div class="card">
+                  <div class="card__thumb">
+                    <img src="multimedia/camionetacarta2.png" alt="" class="card__image">
+                    <div class="card__caption">
+                      <span class="card__title">Ecosport motor Dragón 1.5 3 cilindros</span>
+                      <p class="card__snippet">•Árbol de levas nuevo 
+                        • Electroválvulas 
+                        • Sensor de levas 
+                        • Kit de distribución + bomba de agua
+                        • 3 bujías originales FORD
+                        
+                        Los resultados a la vista, como siempre gracias a todos nuestros clientes por elegirnos.</p>
+                        <a href="formularios.html" class="card__button">Pide tu turno aqui</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <div class="card__thumb">
+                    <img src="multimedia/autocarta3.png" alt="" class="card__image">
+                    <div class="card__caption">
+                      <span class="card__title"> Auto Peugeot 306. Se le cambió:</span>
+                      <p class="card__snippet">-Correa de distribución
+                        -Bomba de agua
+                        -Tensor
+                        -Tapon</p>
+                        <a href="formularios.html" class="card__button">Pide tu turno aqui</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Cartas 3 Autos -->
+          
+                <!-- Mapa Ubicacion -->
+          <section class="texto-dondeestamos" id="dondeestamos123">
+              <h2 class="d-flex justify-content-center">¿Donde estamos?</h2>
+              <div class="barra-servicios">
+              <hr>
+              </div>
+          </section>
+          
+          <section class="mapa-index"> 
+          <iframe class="mapa-dondeestamos" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.45693896372234!2d-58.57451427545327!3d-34.72519293051138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc501fafc79cb%3A0x992d10b40985f2e4!2sInyeccion%20Oeste!5e0!3m2!1ses-419!2sar!4v1649761700530!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+                <!-- Mapa Ubicacion -->
+          
+          
+          
+                <!-- Servicios -->
+          <section class="servicios-general" id="serviciosmuestra">
+          <div class="servicios-texto-barra">
+            <h2 class="d-flex justify-content-center">Servicios</h2>
+            <div class="barra-servicios">
+            <hr>
+            </div>
         </div>
-    </section>
-          <!-- SLIDER BOOTSTRAP -->
-    
-        <!-- Cartas 3 Autos -->
-
-        <section class="contenedor">
-          <div class="card">
-            <div class="card__thumb">
-              <img src="multimedia/camionetacarta.png" alt="" class="card__image">
-              <div class="card__caption">
-                <span class="card__title"> Cliente Camioneta Ford Eco Sport</span>
-                <p class="card__snippet">Camioneta EcoSport en el cual ha pedido un Escaneo global y Limpieza de valvula IAC</p>
-                <a href="formularios.html" class="card__button">Pide tu turno aqui</a>
-              </div>
+      
+        <section class="seccion-servicios">
+          <div class="container-servicios" data-aos="fade-up">
+                <div class="product-details-servicios">
+                <h1>Distribuciones</h1>
+                <p class="information-servicios">Distribución por correa.</p>
+                <p class="information-servicios">Distribución por cadena.</p>
+                <p class="information-servicios">Distribución por ruedas dentadas.</p>
+                <p class="information-servicios">Motores sin distribución mecánica.</p>
+                <div class="control-servicios">
+                <button class="btn-servicios">
+                <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
+                </button>
             </div>
-          </div>
-        
-          <div class="card">
-            <div class="card__thumb">
-              <img src="multimedia/camionetacarta2.png" alt="" class="card__image">
-              <div class="card__caption">
-                <span class="card__title">Ecosport motor Dragón 1.5 3 cilindros</span>
-                <p class="card__snippet">•Árbol de levas nuevo 
-                  • Electroválvulas 
-                  • Sensor de levas 
-                  • Kit de distribución + bomba de agua
-                  • 3 bujías originales FORD
-                  
-                  Los resultados a la vista, como siempre gracias a todos nuestros clientes por elegirnos.</p>
-                  <a href="formularios.html" class="card__button">Pide tu turno aqui</a>
-              </div>
             </div>
-          </div>
-        
-          <div class="card">
-            <div class="card__thumb">
-              <img src="multimedia/autocarta3.png" alt="" class="card__image">
-              <div class="card__caption">
-                <span class="card__title"> Auto Peugeot 306. Se le cambió:</span>
-                <p class="card__snippet">-Correa de distribución
-                  -Bomba de agua
-                  -Tensor
-                  -Tapon</p>
-                  <a href="formularios.html" class="card__button">Pide tu turno aqui</a>
-              </div>
+            <div class="product-image-servicios">
+            <img src="multimedia/distribuciones.jpg" alt="Distribuciones">
             </div>
-          </div>
         </section>
-        <!-- Cartas 3 Autos -->
-    
-          <!-- Mapa Ubicacion -->
-    <section class="texto-dondeestamos" id="dondeestamos123">
-        <h2 class="d-flex justify-content-center">¿Donde estamos?</h2>
-        <div class="barra-servicios">
-        <hr>
+        
+        
+        
+        
+            <section class="seccion-servicios">
+              <div class="container-servicios" data-aos="fade-up">
+                <div class="product-details-servicios">
+                <h1>Mantenimientos</h1>
+                <p class="information-servicios">Mantenimiento externo.</p>
+                <p class="information-servicios">Mantenimiento interno.</p>
+                <p class="information-servicios">Predictivo.</p>
+                <p class="information-servicios">Preventivo.</p>
+                <p class="information-servicios">Correctivo.</p>
+                <div class="control-servicios">
+                <button class="btn-servicios">
+                  <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
+                </button>
+            </div>
+            </div>
+            <div class="product-image-servicios">
+            <img src="multimedia/mantenimientos.jpg" alt="Mantenimientos">
+            </div>
+        </section>
+        
+        
+            <section class="seccion-servicios">
+              <div class="container-servicios" data-aos="fade-up">
+                <div class="product-details-servicios">
+                <h1>Inyeccion Electronica</h1>
+                <p class="information-servicios">Monopunto.</p>
+                <p class="information-servicios">Multipunto.</p>
+                <p class="information-servicios">Secuencial.</p>
+                <p class="information-servicios">Simultánea.</p>
+                <div class="control-servicios">
+                <button class="btn-servicios">
+                  <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
+                </button>
+            </div>
+            </div>
+            <div class="product-image-servicios">
+            <img src="multimedia/inyeccionelectronica123.jpg" alt="Inyeccion Electronica">
+            </div>
+        </section>
+        
+        
+        
+            <section class="seccion-servicios">
+              <div class="container-servicios" data-aos="fade-up">
+                <div class="product-details-servicios">
+                <h1>Frenos y Embragues</h1>
+                <p class="information-servicios">Reparaciones.</p>
+                <p class="information-servicios">Cambios de frenos y embragues.</p>
+                <p class="information-servicios">Mantenimientos.</p>
+                <p class="information-servicios">Deteccion temprana de fallos.</p>
+                <div class="control-servicios">
+                <button class="btn-servicios">
+                  <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
+                </button>
+            </div>
+            </div>
+            <div class="product-image-servicios">
+            <img src="multimedia/frenosyembragues.jpg" alt="Frenos y embragues">
+            </div>
+        </section>
+        
+        
+        
+        <section class="seccion-servicios">
+          <div class="container-servicios" data-aos="fade-up">
+            <div class="product-details-servicios">
+            <h1>Diag. Computarizado</h1>
+            <p class="information-servicios">Estado de sensores.</p>
+            <p class="information-servicios">Diagnóstico global del estado del automovil.</p>
+            <p class="information-servicios">Lectura de códigos erróneos del sistema.</p>
+            <p class="information-servicios">Lectura de la identificación ECU del vehiculo.</p>
+            <div class="control-servicios">
+            <button class="btn-servicios">
+            <span class="buy-servicios">Más información</span>
+            </button>
         </div>
-    </section>
-    
-    <section class="mapa-index"> 
-    <iframe class="mapa-dondeestamos" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.45693896372234!2d-58.57451427545327!3d-34.72519293051138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc501fafc79cb%3A0x992d10b40985f2e4!2sInyeccion%20Oeste!5e0!3m2!1ses-419!2sar!4v1649761700530!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-          <!-- Mapa Ubicacion -->
-    
-    
-    
-          <!-- Servicios -->
-    <section class="servicios-general" id="serviciosmuestra">
-    <div class="servicios-texto-barra">
-      <h2 class="d-flex justify-content-center">Servicios</h2>
-      <div class="barra-servicios">
-      <hr>
-      </div>
-  </div>
-
-  <section class="seccion-servicios">
-    <div class="container-servicios" data-aos="fade-up">
-          <div class="product-details-servicios">
-          <h1>Distribuciones</h1>
-          <p class="information-servicios">Distribución por correa.</p>
-          <p class="information-servicios">Distribución por cadena.</p>
-          <p class="information-servicios">Distribución por ruedas dentadas.</p>
-          <p class="information-servicios">Motores sin distribución mecánica.</p>
-          <div class="control-servicios">
-          <button class="btn-servicios">
-          <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
-          </button>
-      </div>
-      </div>
-      <div class="product-image-servicios">
-      <img src="multimedia/distribuciones.jpg" alt="Distribuciones">
-      </div>
-  </section>
-  
-  
-  
-  
-      <section class="seccion-servicios">
-        <div class="container-servicios" data-aos="fade-up">
-          <div class="product-details-servicios">
-          <h1>Mantenimientos</h1>
-          <p class="information-servicios">Mantenimiento externo.</p>
-          <p class="information-servicios">Mantenimiento interno.</p>
-          <p class="information-servicios">Predictivo.</p>
-          <p class="information-servicios">Preventivo.</p>
-          <p class="information-servicios">Correctivo.</p>
-          <div class="control-servicios">
-          <button class="btn-servicios">
-            <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
-          </button>
-      </div>
-      </div>
-      <div class="product-image-servicios">
-      <img src="multimedia/mantenimientos.jpg" alt="Mantenimientos">
-      </div>
-  </section>
-  
-  
-      <section class="seccion-servicios">
-        <div class="container-servicios" data-aos="fade-up">
-          <div class="product-details-servicios">
-          <h1>Inyeccion Electronica</h1>
-          <p class="information-servicios">Monopunto.</p>
-          <p class="information-servicios">Multipunto.</p>
-          <p class="information-servicios">Secuencial.</p>
-          <p class="information-servicios">Simultánea.</p>
-          <div class="control-servicios">
-          <button class="btn-servicios">
-            <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
-          </button>
-      </div>
-      </div>
-      <div class="product-image-servicios">
-      <img src="multimedia/inyeccionelectronica123.jpg" alt="Inyeccion Electronica">
-      </div>
-  </section>
-  
-  
-  
-      <section class="seccion-servicios">
-        <div class="container-servicios" data-aos="fade-up">
-          <div class="product-details-servicios">
-          <h1>Frenos y Embragues</h1>
-          <p class="information-servicios">Reparaciones.</p>
-          <p class="information-servicios">Cambios de frenos y embragues.</p>
-          <p class="information-servicios">Mantenimientos.</p>
-          <p class="information-servicios">Deteccion temprana de fallos.</p>
-          <div class="control-servicios">
-          <button class="btn-servicios">
-            <a href="formularios.html"><span class="buy-servicios">Más información</span></a>
-          </button>
-      </div>
-      </div>
-      <div class="product-image-servicios">
-      <img src="multimedia/frenosyembragues.jpg" alt="Frenos y embragues">
-      </div>
-  </section>
-  
-  
-  
-  <section class="seccion-servicios">
-    <div class="container-servicios" data-aos="fade-up">
-      <div class="product-details-servicios">
-      <h1>Diag. Computarizado</h1>
-      <p class="information-servicios">Estado de sensores.</p>
-      <p class="information-servicios">Diagnóstico global del estado del automovil.</p>
-      <p class="information-servicios">Lectura de códigos erróneos del sistema.</p>
-      <p class="information-servicios">Lectura de la identificación ECU del vehiculo.</p>
-      <div class="control-servicios">
-      <button class="btn-servicios">
-      <span class="buy-servicios">Más información</span>
-      </button>
-  </div>
-  </div>
-  <div class="product-image-servicios">
-  <img src="multimedia/scannerdiag.jpg" alt="Scanners">
-  </div>
-  </section>
-          <!-- Servicios -->
-
-
+        </div>
+        <div class="product-image-servicios">
+        <img src="multimedia/scannerdiag.jpg" alt="Scanners">
+        </div>
+        </section>
+                <!-- Servicios -->
 
           <!-- Footer -->
         <footer>
