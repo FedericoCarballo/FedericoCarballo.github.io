@@ -12,7 +12,7 @@
 	justify-content: center;
 	width: 100%;
 	margin: 20px 0 80px;
-  gap: 5rem;
+    gap: 5rem;
 }
 
 .card__image {
@@ -78,7 +78,6 @@
 	&__caption {
 		position: absolute;
 		top: 50%;
-		z-index: 1;
 		padding: 0 20px;
 		color: white;
 		transform: translateY(-50%);
