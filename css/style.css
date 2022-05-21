@@ -626,6 +626,10 @@ footer {
     width: 90%;
   }
 }
+.centrado-servicio {
+  text-align: center;
+}
+
 .quienes-somos {
   padding-top: 5rem;
   margin: 0 auto;
